@@ -49,3 +49,8 @@ body, html {
   text-align: center;
   height: 50vh;
 }
+.mouse-click{
+  position: absolute;
+  bottom: 0px;
+  justify-items: center;
+}
