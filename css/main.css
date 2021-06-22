@@ -54,3 +54,19 @@ body, html {
   bottom: 0px;
   justify-items: center;
 }
+.hidden {
+  display: none;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 18vw);
+  grid-gap: 3px;
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
