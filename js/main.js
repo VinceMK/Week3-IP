@@ -1,8 +1,14 @@
 $(document).ready(function() {
 
-    $('').click(function() {
-        $('.main').toggle();
-        $('.hidden').toggle();
+    $('#details').click(function() {
+        $('#details').hide();
+        $('#design').show();
+        $('#design').click(function(){
+            $('#design').hide();
+            $('#details').show();
+
+        });
+
     });
 
 });
