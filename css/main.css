@@ -138,6 +138,10 @@ input[type=email] {
 .header2{
   margin-bottom: 5%;
 }
+.copyright{
+  
+  bottom: 0px;
+}
 /* #mc_embed_signup{
   background:#fff; 
   clear:left; 
