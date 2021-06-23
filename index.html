@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
@@ -18,11 +20,11 @@
               <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
               <br><br>
             </div>
-            <a class="mouse-click" href="#about-us">
+            <a class="mouse-click start-50 translate-middle-x" href="#about-us">
                 <img src="./assets/mouse_click.png" alt="">
             </a>
         </div>
-        <div class="container-fluid py-3 text-center">
+        <div class="container-fluid py-3 text-center" id="about-us">
             <div class="main-about">
                 <h1>ABOUT US</h1>
                 <p>When you work with us, you are part of a ateam of committed collaborators.All aspects of our software
@@ -54,27 +56,27 @@
                     </div> -->
                     <h3 class="h3">What we do</h3>
                     <div class="row">
-                        <div class="col-md-4 main">
+                        <div class="col-md-4 main" id= "details">
                             <img src="./assets/services_icons/design_icon.png" alt="design-icon" srcset="">
                             <h6>Design</h6>
                         </div>
-                        <div class="col-md-4 hidden">
+                        <div class="col-md-4 hidden" id="design">
                             <h6>Design</h6>
-                            <p class="hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam soluta sed nostrum sit veritatis animi labore ullam natus eos</p>
+                            <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam soluta sed nostrum sit veritatis animi labore ullam natus eos</p>
                         </div>
-                        <div class="col-md-4 main">
+                        <div class="col-md-4 main" id="details2">
                             <img src="./assets/services_icons/dev_icon.png" alt="dev-icon" srcset="">
                             <h6>Development</h6>
                         </div>
-                        <div class="col-md-4 hidden">
+                        <div class="col-md-4 hidden" id="development">
                             <h6>Development</h6>
                             <p class="hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam soluta sed nostrum sit veritatis animi labore ullam natus eos</p>
                         </div>
-                        <div class="col-md-4 main">
+                        <div class="col-md-4 main" id="details3">
                             <img src="./assets/services_icons/product_icon.png" alt="product-icon" srcset="">
                             <h6>Product</h6>
                         </div>
-                        <div class="col-md-4 hidden">
+                        <div class="col-md-4 hidden" id="product">
                             <h6>Product</h6>
                             <p class="hidden">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam soluta sed nostrum sit veritatis animi labore ullam natus eos</p>
                         </div>
@@ -118,6 +120,5 @@
         </div>  
         <!-- Endof About Us -->
     </div>
-    
 </body>
 </html>
