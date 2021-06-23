@@ -48,7 +48,7 @@ body, html {
   position: relative;
 
   text-align: center;
-  height: 50vh;
+  height: 30vh;
 }
 .mouse-click{
   position: absolute;
@@ -96,7 +96,11 @@ input[type=email] {
   margin-bottom: 7%;
   
 }
-
+.socials{
+  display: inline;
+  float: left;
+  margin-top: 10%;
+}
 #message {
 
   background: transparent;
@@ -108,8 +112,17 @@ input[type=email] {
 
 }
 
-#mce-EMAIL{
-  float: left;
+#contacts{
+  color: white;
+}
+.servic{
+  margin-top: 10%;
+  margin-bottom:5%;
+
+}
+.service-sec{
+
+  color: white;
 }
 .what-we-do{
   margin-top: 5%;
