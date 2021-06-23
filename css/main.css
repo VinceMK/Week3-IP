@@ -118,6 +118,9 @@ input[type=email] {
 
 
 }
+.portofolio{
+  margin-bottom: 2%;
+}
 
 #contacts{
   color: white;
@@ -133,13 +136,13 @@ input[type=email] {
 }
 .what-we-do{
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 .header2{
   margin-bottom: 5%;
 }
 .copyright{
-  
+
   bottom: 0px;
 }
 /* #mc_embed_signup{
