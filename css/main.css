@@ -52,7 +52,7 @@ body, html {
 .mouse-click{
   position: absolute;
   bottom: 0px;
-  justify-items: center;
+  
 }
 .hidden {
   display: none;
