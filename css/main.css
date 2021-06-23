@@ -101,6 +101,12 @@ input[type=email] {
   float: left;
   margin-top: 10%;
 }
+.social-head{
+  margin-top: 3%;
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
 #message {
 
   background: transparent;
