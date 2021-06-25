@@ -34,3 +34,17 @@ $(document).ready(function() {
     });
 
 });
+
+$(document).ready(function() {
+    let day = new Date();
+    let yr = day.getFullYear();
+
+    const yrs = document.getElementById("yrs");
+
+    yrs.innerHTML = "© " + yr + " Copyright:";
+});
+
+    
+
+
+
