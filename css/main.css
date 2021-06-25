@@ -139,12 +139,17 @@ input[type=email] {
   margin-bottom: 5%;
 }
 .header2{
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 .copyright{
+  color: black;
+  text-decoration: none;
+  
+  
 
-  bottom: 0px;
+  
 }
+
 /* #mc_embed_signup{
   background:#fff; 
   clear:left; 
