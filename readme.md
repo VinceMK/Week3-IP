@@ -14,9 +14,29 @@ Visit the site for more information
 Pull requests are welcome. 
 
 
-
 ## License
 General fair usage
+## prerequisite
+    1.A text editor preferably visual studio code.
+    *  git clone the repo git clone https://github.com/fkinyae/mydonor
+    *  cd "mydonor"
+    *  code .
+## [Live link]
+    (https://vincemk.github.io/pizzaspot/)
+
+## Known Bugs
+    There are no known bugs
+## features:
+    * Home page
+    * About us page
+    * Contact us page
+    * portofolio page
+    * Services page
+    
+## Technologies Used
+    * html
+    * css
+    *js
 
 ## Done by
 Vincent Inc.
